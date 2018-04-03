@@ -1,11 +1,4 @@
 <?php 
-	echo "<p><strong>Page to check for Palindrome</strong></p>";
-	echo "method="post">";
-	echo "Enter the String <input type="text" name="firstString">";
-	echo "<input type="submit" value="Submit">"; 
-?>
-</form>
-<?php 
 	$str = $_POST["firstString"];
 	//echo "$str<br>";
 	$rev = strrev($str);
