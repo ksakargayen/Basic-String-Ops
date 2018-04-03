@@ -79,6 +79,11 @@
 				Enter the String <input type="text" name="firstString">
 				<input type="submit" value="Submit"> 
 			</form>
-			</body>
+			<br>
+			<form action="arrays.php" method="post">
+				Enter your car <input type="text" name="Cars" value="">
+				<input type="submit" value="Submit"> 
+			</form>
+		</body>
 	</div>	
 </html>
